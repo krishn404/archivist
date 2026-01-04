@@ -90,7 +90,7 @@ export const DayTile: React.FC<DayTileProps> = ({
         </span>
       </PopoverTrigger>
       <PopoverContent
-        className="bg-[#1A1A1E] text-white text-xs rounded-lg border border-[#3F3F46] shadow-2xl w-80 p-0"
+        className="bg-[#1A1A1E] text-white text-xs rounded-lg border border-[#3F3F46] shadow-2xl w-80 p-0 h-fit"
         side="top"
         align="center"
         sideOffset={8}
@@ -125,7 +125,7 @@ export const DayTile: React.FC<DayTileProps> = ({
 
         {/* Reviews (if exists and should show) */}
         {shouldShowReviews && (
-          <div className="px-3 py-2 space-y-2 max-h-48 overflow-y-auto">
+          <div className="px-3 py-2 space-y-2 max-h-fit overflow-y-auto">
             {reviews.map((review, idx) => (
               <div key={idx} className="space-y-1">
                 <p className="text-[10px] font-bold text-gray-400 uppercase tracking-wider">

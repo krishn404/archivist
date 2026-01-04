@@ -160,7 +160,7 @@ export default function Home() {
               <span className="bg-[#22D3EE]/10 text-[#22D3EE] text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest border border-[#22D3EE]/20">
                 Personal Archivist
               </span>
-              <span className="text-gray-500 text-sm font-medium">v1.0.0</span>
+              <span className="text-gray-500 text-sm font-medium">V 1.0</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-black text-gray-100 tracking-tight wrap-break-words">
               THE YEAR <span className="text-[#22D3EE]">{year}</span>
