@@ -1,18 +1,12 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { env } from "@quarter/env/web";
+import type { User } from "@quarter/db";
 
 const API_URL = env.NEXT_PUBLIC_SERVER_URL;
 
 export type UpdateUserNameResponse = {
   message: string;
-  user: {
-    id: string;
-    name: string;
-    email: string;
-    image: string | null;
-    createdAt: Date;
-    updatedAt: Date;
-  };
+  user: User;
 };
 
 // API endpoints
