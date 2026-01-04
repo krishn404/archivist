@@ -1,4 +1,4 @@
-import { env } from "@quarter/env/web";
+import { env } from "@archivist/env/web";
 import { createAuthClient } from "better-auth/react";
 
 export const authClient = createAuthClient({

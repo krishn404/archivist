@@ -1,6 +1,6 @@
-import { db } from "@quarter/db";
-import * as schema from "@quarter/db/schema/auth";
-import { env } from "@quarter/env/server";
+import { db } from "@archivist/db";
+import * as schema from "@archivist/db/schema/auth";
+import { env } from "@archivist/env/server";
 import { betterAuth } from "better-auth";
 import { drizzleAdapter } from "better-auth/adapters/drizzle";
 

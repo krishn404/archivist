@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { env } from "@quarter/env/web";
+import { env } from "@archivist/env/web";
 
 const API_URL = env.NEXT_PUBLIC_SERVER_URL;
 

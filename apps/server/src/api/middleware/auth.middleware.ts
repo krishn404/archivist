@@ -1,4 +1,4 @@
-import { auth } from "@quarter/auth";
+import { auth } from "@archivist/auth";
 import { fromNodeHeaders } from "better-auth/node";
 import type { Request, Response, NextFunction } from "express";
 

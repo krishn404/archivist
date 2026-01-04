@@ -22,13 +22,13 @@
     "dev:native": "turbo -F native dev",
     "dev:web": "turbo -F web dev",
     "dev:server": "turbo -F server dev",
-    "db:push": "turbo -F @quarter/db db:push",
-    "db:studio": "turbo -F @quarter/db db:studio",
-    "db:generate": "turbo -F @quarter/db db:generate",
-    "db:migrate": "turbo -F @quarter/db db:migrate"
+    "db:push": "turbo -F @archivist/db db:push",
+    "db:studio": "turbo -F @archivist/db db:studio",
+    "db:generate": "turbo -F @archivist/db db:generate",
+    "db:migrate": "turbo -F @archivist/db db:migrate"
   },
   "dependencies": {
-    "@quarter/env": "workspace:*",
+    "@archivist/env": "workspace:*",
     "dotenv": "catalog:",
     "zod": "catalog:"
   },
@@ -36,7 +36,7 @@
     "turbo": "^2.6.3",
     "typescript": "catalog:",
     "@types/bun": "catalog:",
-    "@quarter/config": "workspace:*"
+    "@archivist/config": "workspace:*"
   },
   "packageManager": "bun@1.3.4"
 }

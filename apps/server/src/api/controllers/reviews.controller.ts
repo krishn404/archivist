@@ -1,5 +1,9 @@
-import { db, eq, and } from "@quarter/db";
-import { review, dayEntry, customCategory } from "@quarter/db/schema/calendar";
+import { db, eq, and } from "@archivist/db";
+import {
+  review,
+  dayEntry,
+  customCategory,
+} from "@archivist/db/schema/calendar";
 import type { Request, Response } from "express";
 import type {
   CreateReviewInput,

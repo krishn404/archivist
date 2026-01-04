@@ -1,5 +1,5 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { env } from "@quarter/env/web";
+import { env } from "@archivist/env/web";
 import type {
   DayEntry,
   Review,

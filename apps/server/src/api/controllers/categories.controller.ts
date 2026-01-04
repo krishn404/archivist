@@ -1,5 +1,5 @@
-import { db, eq, and, count } from "@quarter/db";
-import { customCategory } from "@quarter/db/schema/calendar";
+import { db, eq, and, count } from "@archivist/db";
+import { customCategory } from "@archivist/db/schema/calendar";
 import type { Request, Response } from "express";
 import type {
   CreateCategoryInput,

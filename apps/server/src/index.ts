@@ -1,5 +1,5 @@
-import { auth } from "@quarter/auth";
-import { env } from "@quarter/env/server";
+import { auth } from "@archivist/auth";
+import { env } from "@archivist/env/server";
 import { toNodeHandler } from "better-auth/node";
 import cors from "cors";
 import express from "express";

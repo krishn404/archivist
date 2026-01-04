@@ -1,6 +1,10 @@
-import { db, eq, and, gte, lte, inArray } from "@quarter/db";
-import { profileSettings, dayEntry, review } from "@quarter/db/schema/calendar";
-import { user } from "@quarter/db/schema/auth";
+import { db, eq, and, gte, lte, inArray } from "@archivist/db";
+import {
+  profileSettings,
+  dayEntry,
+  review,
+} from "@archivist/db/schema/calendar";
+import { user } from "@archivist/db/schema/auth";
 import type { Request, Response } from "express";
 import type { UpdateProfileSettingsInput } from "../validators/profile.validator";
 

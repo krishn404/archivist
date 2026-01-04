@@ -1,5 +1,5 @@
-import { db, eq, and, gte, lte, inArray } from "@quarter/db";
-import { dayEntry, review } from "@quarter/db/schema/calendar";
+import { db, eq, and, gte, lte, inArray } from "@archivist/db";
+import { dayEntry, review } from "@archivist/db/schema/calendar";
 import type { Request, Response } from "express";
 import type {
   CreateDayEntryInput,

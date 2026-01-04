@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",
-    "@quarter/auth": "workspace:*",
-    "@quarter/db": "workspace:*",
-    "@quarter/env": "workspace:*",
+    "@archivist/auth": "workspace:*",
+    "@archivist/db": "workspace:*",
+    "@archivist/env": "workspace:*",
     "@repo/ui": "workspace:*",
     "@tanstack/react-form": "^1.27.3",
     "@tanstack/react-query": "^5.90.16",
@@ -35,6 +35,6 @@
     "tailwindcss": "^4.1.10",
     "typescript": "catalog:",
     "@tanstack/react-query-devtools": "^5.91.2",
-    "@quarter/config": "workspace:*"
+    "@archivist/config": "workspace:*"
   }
 }

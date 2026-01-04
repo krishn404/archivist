@@ -1,5 +1,5 @@
 {
-  "name": "@quarter/auth",
+  "name": "@archivist/auth",
   "type": "module",
   "exports": {
     ".": {
@@ -12,13 +12,13 @@
   "scripts": {},
   "devDependencies": {
     "typescript": "catalog:",
-    "@quarter/config": "workspace:*"
+    "@archivist/config": "workspace:*"
   },
   "dependencies": {
     "better-auth": "catalog:",
     "dotenv": "catalog:",
     "zod": "catalog:",
-    "@quarter/env": "workspace:*",
-    "@quarter/db": "workspace:*"
+    "@archivist/env": "workspace:*",
+    "@archivist/db": "workspace:*"
   }
 }

@@ -15,9 +15,9 @@
     "better-auth": "catalog:",
     "dotenv": "catalog:",
     "zod": "catalog:",
-    "@quarter/env": "workspace:*",
-    "@quarter/auth": "workspace:*",
-    "@quarter/db": "workspace:*"
+    "@archivist/env": "workspace:*",
+    "@archivist/auth": "workspace:*",
+    "@archivist/db": "workspace:*"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
@@ -25,6 +25,6 @@
     "@types/bun": "catalog:",
     "typescript": "catalog:",
     "tsdown": "^0.16.5",
-    "@quarter/config": "workspace:*"
+    "@archivist/config": "workspace:*"
   }
 }
