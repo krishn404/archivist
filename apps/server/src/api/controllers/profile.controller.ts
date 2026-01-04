@@ -260,6 +260,7 @@ export const getPublicProfile = async (
 
       if (settings.showMoods) {
         response.entries = entries.map((entry) => ({
+          id: entry.id,
           date: entry.date,
           legend: entry.legend,
         }));
